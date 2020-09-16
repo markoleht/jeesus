@@ -59,7 +59,7 @@ class Login extends React.Component {
         const { errorMsg } = this.state;
         return (
             <div className="login-page">
-                <h1>Banking Application</h1>
+                <h1>Marko ja Intsu hauss</h1>
                 <div className="login-form">
                     <Form onSubmit={this.handleLogin}>
                         {errorMsg && errorMsg.signin_error && (
